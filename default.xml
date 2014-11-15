@@ -5,7 +5,7 @@
   <remote fetch="https://git@bitbucket.org/paranoidandroid/" name="paranoid"/>
   <remote fetch="ssh://git@github.com" name="private"/>
   
-  <default remote="github" 
+  <default remote="github"
            revision="refs/heads/jellybean"
            sync-c="true"
            sync-j="4" />
@@ -321,10 +321,11 @@
   <project groups="default" name="platform/prebuilts/qemu-kernel" path="prebuilts/qemu-kernel" remote="aosp" revision="jb-dev" />
   <project groups="default" name="platform/prebuilts/sdk" path="prebuilts/sdk" remote="aosp" revision="jb-dev" />
 
-  <!-- AceBox -TEST- Forked stuff -->
+  <!-- AceBox -TEST- Forked projects go here -->
   <project groups="default" name="acebox/pacrom_frameworks_base" path="frameworks/base" />
   <project groups="default" name="acebox/pacrom_packages_apps_Settings" path="packages/apps/Settings" />
-
+  <project groups="default" name="acebox/android_device_samsung_i927" path="device/samsung/i927" />
+  
   <!-- AOKP -->
   <project groups="default" name="AOKP/packages_apps_ROMControl" path="packages/apps/ROMControl" revision="3627e7af26f4c8174744d80827f7dc1ab13647e3" />
   <project groups="default" name="AOKP/packages_apps_DeskClock" path="packages/apps/DeskClock" revision="jb"/>
