@@ -266,6 +266,7 @@
   <project groups="default" name="CyanogenMod/android_packages_inputmethods_PinyinIME" path="packages/inputmethods/PinyinIME" />
   <project groups="default" name="CyanogenMod/android_packages_providers_ApplicationsProvider" path="packages/providers/ApplicationsProvider" />
   <project groups="default" name="CyanogenMod/android_packages_providers_CalendarProvider" path="packages/providers/CalendarProvider" />
+  <project groups="default" name="CyanogenMod/android_packages_providers_ContactsProvider" path="packages/providers/ContactsProvider" />
   <project groups="default" name="CyanogenMod/android_packages_providers_DownloadProvider" path="packages/providers/DownloadProvider" />
   <project groups="default" name="CyanogenMod/android_packages_providers_DrmProvider" path="packages/providers/DrmProvider" />
   <project groups="default" name="CyanogenMod/android_packages_providers_MediaProvider" path="packages/providers/MediaProvider" />
@@ -331,20 +332,13 @@
   <!-- PA -->
   <project groups="default" name="ParanoidAndroid/android_external_doclava" path="external/doclava" />
   <project groups="default" name="ParanoidAndroid/cm_system_core" path="system/core" />
-  <!-- ace - TEST - jellybean vendor -->
-<!--  <project groups="default" name="ParanoidAndroid/android_vendor_pa" path="vendor/pa" revision="d1ecd70a7f2f9965262b843360b021bc861fc036"/> -->
   <project groups="default" name="ParanoidAndroid/android_vendor_pa" path="vendor/pa"/>
 
   <!-- PAC -->
   <project groups="default" name="PAC-man/android" path="android" />
-<!-- ace - needs base_OLD, testing AceBox fork
-  <project groups="default" name="PAC-man/android_frameworks_base" path="frameworks/base" /> -->
   <project groups="default" name="PAC-man/android_packages_apps_Contacts" path="packages/apps/Contacts" />
   <project groups="default" name="PAC-man/android_packages_apps_Phone" path="packages/apps/Phone" />
   <project groups="default" name="PAC-man/android_packages_apps_Mms" path="packages/apps/Mms" />
-<!-- ace - needs Settings_OLD, testing AceBox fork
-  <project groups="default" name="PAC-man/android_packages_apps_Settings" path="packages/apps/Settings" /> -->
-  <project groups="default" name="PAC-man/android_packages_providers_ContactsProvider" path="packages/providers/ContactsProvider" />
   <project groups="default" name="PAC-man/android_vendor_pac" path="vendor/pac" />
   <project groups="default" name="PAC-man/android_prebuilt_linux-x86_toolchain_arm-gnueabihf-linaro-4.7" path="prebuilt/linux-x86/toolchain/arm-gnueabihf-linaro-4.7" revision="refs/heads/master" />
 
