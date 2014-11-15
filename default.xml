@@ -11,12 +11,6 @@
            sync-j="4" />
 
   <!-- UNOFFICIAL EXPERIMENTAL TEST FORK - Based On: PAC manifest v18.0.0 | 18-Nov-2012
-            .------..------..------..------..------..------.
-            |A.--. ||C.--. ||E.--. ||M.--. ||O.--. ||D.--. |
-            | (\/) || :/\: || (\/) || (\/) || :/\: || :/\: |
-            | :\/: || :\/: || :\/: || :\/: || :\/: || (__) |
-            | '--'A|| '--'C|| '--'E|| '--'M|| '--'O|| '--'D|
-            `------'`------'`------'`------'`------'`------'  
         Ace - This is an expermenal fork based on Jellybean 4.1.x PAC-ROM.
         Things might break, have fun.
         Ascii-Art based on: http://patorjk.com/software/taag/
